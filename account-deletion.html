@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>حذف الحساب — تطبيق ذمّة</title>
+<style>
+  :root {
+    --emerald-dark: #064B3B;
+    --emerald: #0B6B50;
+    --gold: #D8A83E;
+    --ivory: #FFF8E8;
+    --bg: #F5F7F6;
+    --text-primary: #18332B;
+    --text-secondary: #55655F;
+    --danger: #C94B4B;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: 'Tahoma', 'Segoe UI', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    line-height: 1.8;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--emerald-dark), var(--emerald));
+    color: white;
+    padding: 48px 20px 40px;
+    text-align: center;
+  }
+
+  header h1 { margin: 0 0 8px; font-size: 28px; }
+  header p { margin: 0; opacity: 0.85; font-size: 14px; }
+
+  .container {
+    max-width: 720px;
+    margin: -24px auto 60px;
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+
+  h2 {
+    color: var(--emerald-dark);
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+  }
+
+  p, li { color: var(--text-secondary); font-size: 15px; }
+
+  .steps {
+    list-style: none;
+    padding: 0;
+    counter-reset: step;
+  }
+
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding-inline-start: 44px;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+  }
+
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background: var(--emerald-dark);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .warning-box {
+    background: #FDF0F0;
+    border-inline-start: 4px solid var(--danger);
+    padding: 18px 20px;
+    border-radius: 8px;
+    margin: 24px 0;
+  }
+
+  .warning-box p { color: var(--danger); margin: 0; font-weight: bold; }
+  .warning-box ul { margin: 10px 0 0; color: #8a3a3a; }
+
+  .info-box {
+    background: var(--ivory);
+    border-inline-start: 4px solid var(--gold);
+    padding: 18px 20px;
+    border-radius: 8px;
+    margin: 24px 0;
+  }
+
+  .info-box p { color: var(--text-primary); margin: 0; }
+
+  .contact-card {
+    background: var(--emerald-dark);
+    color: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .contact-card a { color: var(--gold); text-decoration: none; font-weight: bold; }
+  .contact-card p { color: rgba(255,255,255,0.85); margin: 0 0 10px; }
+
+  footer { text-align: center; padding: 24px; color: var(--text-secondary); font-size: 13px; }
+
+  a.back-link {
+    color: var(--emerald);
+    font-size: 14px;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>حذف الحساب والبيانات</h1>
+  <p>تطبيق ذمّة — خطوات حذف حسابك نهائيًا</p>
+</header>
+
+<div class="container">
+  <p>
+    نحترم حقك الكامل بحذف حسابك وكل بياناتك من تطبيق "ذمّة" في أي وقت.
+    فيه طريقتان حسب وضعك الحالي:
+  </p>
+
+  <h2>الطريقة 1: من داخل التطبيق (الأسرع)</h2>
+  <ol class="steps">
+    <li>افتح تطبيق ذمّة وسجّل الدخول لحسابك.</li>
+    <li>روح لـ <strong>الإعدادات</strong> من القائمة الجانبية.</li>
+    <li>انزل لقسم <strong>"منطقة الخطر"</strong> أسفل الصفحة.</li>
+    <li>اضغط <strong>"حذف الحساب نهائيًا"</strong> واكتب كلمة التأكيد المطلوبة.</li>
+  </ol>
+
+  <h2>الطريقة 2: لو حذفت التطبيق من جهازك</h2>
+  <p>
+    راسلنا مباشرة من البريد المسجّل بحسابك على العنوان أدناه، واذكر
+    "طلب حذف حساب"، وسنقوم بحذف حسابك وكل بياناتك المرتبطة به خلال
+    <strong>7 أيام عمل</strong> كحد أقصى، وسنؤكد لك عبر البريد فور الانتهاء.
+  </p>
+
+  <div class="warning-box">
+    <p>⚠️ هذا الإجراء نهائي ولا يمكن التراجع عنه</p>
+    <ul>
+      <li>كل العملاء والديون والعمليات المسجّلة تُحذف نهائيًا.</li>
+      <li>أي نسخة احتياطية محفوظة عندك يدويًا (خارج التطبيق) لن تتأثر.</li>
+      <li>لن تقدر تسترجع الحساب أو بياناته بعد الحذف إطلاقًا.</li>
+    </ul>
+  </div>
+
+  <div class="info-box">
+    <p>
+      <strong>ما الذي يُحذف بالضبط:</strong> الاسم والبريد الإلكتروني، كل
+      العملاء المسجّلين وبياناتهم، كل الديون والعمليات المالية، إعدادات
+      حسابك، ونسخ المزامنة السحابية بالكامل — من الجهاز ومن الخادم السحابي
+      معًا.
+    </p>
+  </div>
+
+  <div class="contact-card">
+    <p>لطلب حذف الحساب أو أي استفسار</p>
+    <a href="mailto:rocks1.first@gmail.com">rocks1.first@gmail.com</a>
+  </div>
+
+  <p style="margin-top:24px; text-align:center;">
+    <a class="back-link" href="privacy-policy.html">→ الرجوع لسياسة الخصوصية</a>
+  </p>
+</div>
+
+<footer>© 2026 تطبيق ذمّة — جميع الحقوق محفوظة</footer>
+
+</body>
+</html>
