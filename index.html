@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تطبيق ذمّة — الصفحات القانونية</title>
+<style>
+  :root {
+    --emerald-dark: #064B3B;
+    --emerald: #0B6B50;
+    --gold: #D8A83E;
+    --bg: #F5F7F6;
+    --text-secondary: #55655F;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Tahoma', 'Segoe UI', Arial, sans-serif;
+    background: var(--bg);
+  }
+  .card {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 420px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+  h1 { color: var(--emerald-dark); font-size: 22px; margin-bottom: 6px; }
+  p { color: var(--text-secondary); font-size: 14px; margin-bottom: 28px; }
+  a.link-btn {
+    display: block;
+    background: var(--emerald-dark);
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+  a.link-btn.secondary {
+    background: transparent;
+    color: var(--emerald-dark);
+    border: 2px solid var(--emerald-dark);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>ذمّة</h1>
+    <p>الصفحات القانونية الخاصة بالتطبيق</p>
+    <a class="link-btn" href="privacy-policy.html">سياسة الخصوصية</a>
+    <a class="link-btn secondary" href="account-deletion.html">حذف الحساب</a>
+  </div>
+</body>
+</html>
